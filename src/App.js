@@ -9,7 +9,7 @@ function App() {
     <Navbar.Brand href="#home">E-commerce</Navbar.Brand>
     <Nav className="mr-auto">
       <Nav.Link href="#home">Home</Nav.Link>
-      
+      <Nav.Link href="#features">Features</Nav.Link>
       
     </Nav>
     <Form inline>

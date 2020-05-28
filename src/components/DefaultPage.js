@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Header from './Header';
 import logo from '../images/model2.jpg';
 import logo2 from '../images/model1.jpg';
 import logo3 from '../images/model3.jpg'
@@ -10,7 +11,7 @@ export default class DefaultPage extends Component {
     render() {
         return (
             <div>
-                <Navbar bg="dark" variant="dark">
+                {/* <Navbar bg="dark" variant="dark">
     <Navbar.Brand href="#home">My E-commerce site</Navbar.Brand>
     <Nav className="mr-auto">
       <Nav.Link href="#home">Home</Nav.Link>
@@ -21,7 +22,8 @@ export default class DefaultPage extends Component {
       <FormControl type="text" placeholder="Search" className="mr-sm-2" />
       <Button variant="outline-info">Search</Button>
     </Form>
-  </Navbar>
+  </Navbar> */}
+  <Header />
 
   <Container fluid>
   <Row >

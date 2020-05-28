@@ -21,7 +21,11 @@ export default class DefaultPage extends Component {
   </Navbar>
   <h1>E-Commerce site</h1>
   <Container fluid>
-  
+  <Row >
+    <Col> 1 </Col>
+    <Col> 2 </Col>
+    <Col> 3 </Col>
+  </Row>
   
   
 </Container>

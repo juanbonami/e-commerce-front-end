@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Header from './Header';
 import logo from '../images/model2.jpg';
 import logo2 from '../images/model1.jpg';
-import logo3 from '../images/model3.jpg'
+import logo3 from '../images/model3.jpg';
 import { Navbar, Nav,
     Form, FormControl,
     Button, Container, Row, Col } from 'react-bootstrap';
@@ -26,16 +26,16 @@ export default class DefaultPage extends Component {
   <Header />
 
   <Container fluid>
-  <Row >
+  <Row>
     <Col> <img src={logo} height="966" width="699" alt=""></img> </Col>
     <Col> <img src={logo2} height="966" width="699" alt=""></img> </Col>
     <Col> <img src={logo3} height="966" width="699" alt=""></img> </Col>
   </Row>
   <br />
   <Row>
-    <Col> 1 </Col>
-    <Col> 2 </Col>
-    <Col> 3 </Col>
+    <Col className="body-text"> Fashion for Men 
+    <br /> Fashion for Women
+    <br /> Accessories </Col>
   </Row>
 </Container>
             </div>

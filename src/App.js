@@ -17,6 +17,7 @@ function App() {
       <Button variant="outline-info">Search</Button>
     </Form>
   </Navbar>
+  <h1>E-Commerce site</h1>
     </div>
   );
 }

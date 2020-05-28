@@ -45,3 +45,13 @@
   color: black;
 }
 
+.title {
+  float: none;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 404px 0px 0px 650px;
+  text-decoration: none;
+  font-size: 207px;
+  font-style: italic;
+  text-shadow: 0px 150px 10px #FF0000
+}

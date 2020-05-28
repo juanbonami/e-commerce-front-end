@@ -10,8 +10,8 @@ export default class Header extends Component {
                   <a href="#home">Home</a>
                   <a href="#mens">Mens</a>
                   <a href="#womens">Womens</a>
-                  <a href="#about">About</a>
-                </div>
+                  <a href="#about">About</a>                 
+                </div>                
                 <h1 class="title">Bonami</h1>
                 </div>
                 </div>

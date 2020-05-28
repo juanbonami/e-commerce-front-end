@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
-import { Navbar, Nav, Form, FormControl, Button } from 'react-bootstrap';
+import { Navbar, Nav,
+    Form, FormControl,
+    Button, Container, Row, Col } from 'react-bootstrap';
 
 export default class DefaultPage extends Component {
     render() {
@@ -18,6 +20,11 @@ export default class DefaultPage extends Component {
     </Form>
   </Navbar>
   <h1>E-Commerce site</h1>
+  <Container fluid>
+  
+  
+  
+</Container>
             </div>
         )
     }

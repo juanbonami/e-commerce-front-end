@@ -8,7 +8,10 @@ function App() {
       <Navbar bg="dark" variant="dark">
     <Navbar.Brand href="#home">E-commerce</Navbar.Brand>
     
-    
+    <Form inline>
+      
+      
+    </Form>
   </Navbar>
     </div>
   );

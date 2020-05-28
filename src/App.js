@@ -8,7 +8,7 @@ function App() {
       <Navbar bg="dark" variant="dark">
     <Navbar.Brand href="#home">E-commerce</Navbar.Brand>
     <Nav className="mr-auto">
-      
+      <Nav.Link href="#home">Home</Nav.Link>
       
       
     </Nav>

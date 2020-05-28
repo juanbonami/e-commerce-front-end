@@ -26,8 +26,12 @@ export default class DefaultPage extends Component {
     <Col> 2 </Col>
     <Col> 3 </Col>
   </Row>
-  
-  
+  <br />
+  <Row>
+    <Col> 1 </Col>
+    <Col> 2 </Col>
+    <Col> 3 </Col>
+  </Row>
 </Container>
             </div>
         )

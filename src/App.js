@@ -9,7 +9,7 @@ function App() {
     <Navbar.Brand href="#home">E-commerce</Navbar.Brand>
     
     <Form inline>
-      
+      <FormControl type="text" placeholder="Search" className="mr-sm-2" />
       
     </Form>
   </Navbar>

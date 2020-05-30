@@ -20,4 +20,19 @@ public class ProductService {
     public List<Product> saveProducts(List<Product> products) {
         return repository.saveAll(products);
     }
+
+    //GET returns all Products in db
+    public List<Product> getProducts() {
+        return repository.findAll();
+    }
+
+    // and one will return one by id
+    public Product getProductById(int id) {
+        return repository.findById(id).orElse(null);
+    }
+
+    // and one will return product by name
+    public Product getProductByName(String name) {
+        return repository.findByName(name);
+    }
 }

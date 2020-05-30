@@ -35,4 +35,10 @@ public class ProductService {
     public Product getProductByName(String name) {
         return repository.findByName(name);
     }
+
+    // DELETE will delete record from db and return a string
+    public String deleteProduct(int id) {
+        repository.deleteById(id);
+        return "product removed!" + id;
+    }
 }

@@ -59,5 +59,9 @@ public class ProductController {
         return commentService.saveComment(comment);
     }
 
+    @GetMapping("/commentById/{id}")
+    public Comments findCommentById(@PathVariable int id) {
+        return commentService.getCommentById(id);
+    }
 
 }

@@ -2,7 +2,6 @@ package com.capstone.ecommerce.Ecommerce.service;
 
 import com.capstone.ecommerce.Ecommerce.Entity.Comments;
 import com.capstone.ecommerce.Ecommerce.repository.CommentsRepository;
-import com.capstone.ecommerce.Ecommerce.repository.ProductRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -20,6 +19,12 @@ public class CommentService {
     // GET method
     public Comments getCommentById(int id) {
         return repository.findById(id).orElse(null);
+    }
+
+    // DELETE method
+    public String deleteComment(int id) {
+        repository.deleteById(id);
+        return "Comment deleted" + id;
     }
 
 }

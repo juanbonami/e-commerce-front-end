@@ -70,4 +70,9 @@ public class ProductController {
         return commentService.updateComment(comments);
     }
 
+    @DeleteMapping("/deleteComment/{id}")
+    public String deleteComment(@PathVariable int id) {
+        return commentService.deleteComment(id);
+    }
+
 }

@@ -17,4 +17,9 @@ public class CommentService {
         return repository.save(comments);
     }
 
+    // GET method
+    public Comments getCommentById(int id) {
+        return repository.findById(id).orElse(null);
+    }
+
 }

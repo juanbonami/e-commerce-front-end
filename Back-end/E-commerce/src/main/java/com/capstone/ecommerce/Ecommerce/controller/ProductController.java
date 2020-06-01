@@ -15,6 +15,7 @@ public class ProductController {
 
     @Autowired
     private ProductService service;
+    @Autowired
     private CommentService commentService;
 
     @PostMapping("/addProduct")

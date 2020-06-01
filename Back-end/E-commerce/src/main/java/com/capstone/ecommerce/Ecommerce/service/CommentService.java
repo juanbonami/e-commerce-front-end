@@ -27,4 +27,12 @@ public class CommentService {
         return "Comment deleted" + id;
     }
 
+    // PUT method
+    public Comments updateComment(Comments comments) {
+        Comments existingComment = repository.findById(comments.getId()).orElse(null);
+        existingComment.setName(comments.getName());
+        existingComment.setComment(comments.getComment());
+        return repository.save(existingComment);
+    }
+
 }

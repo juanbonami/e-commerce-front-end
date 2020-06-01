@@ -65,4 +65,9 @@ public class ProductController {
         return commentService.getCommentById(id);
     }
 
+    @PutMapping("/update")
+    public Comments updateProduct(@RequestBody Comments comments) {
+        return commentService.updateComment(comments);
+    }
+
 }

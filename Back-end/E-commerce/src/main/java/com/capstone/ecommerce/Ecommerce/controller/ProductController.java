@@ -1,10 +1,13 @@
 package com.capstone.ecommerce.Ecommerce.controller;
 
+import com.capstone.ecommerce.Ecommerce.Entity.Comments;
 import com.capstone.ecommerce.Ecommerce.Entity.Product;
+import com.capstone.ecommerce.Ecommerce.service.CommentService;
 import com.capstone.ecommerce.Ecommerce.service.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+import javax.xml.stream.events.Comment;
 import java.util.List;
 
 @RestController
@@ -12,6 +15,7 @@ public class ProductController {
 
     @Autowired
     private ProductService service;
+    private CommentService commentService;
 
     @PostMapping("/addProduct")
     public Product addProduct(@RequestBody Product product) {
@@ -47,4 +51,13 @@ public class ProductController {
     public String deleteProduct(@PathVariable int id) {
         return service.deleteProduct(id);
     }
+
+// *******************************************************************************************************
+
+    @PostMapping("/addComment")
+    public Comments addComment(@RequestBody Comments comment) {
+        return commentService.saveComment(comment);
+    }
+
+
 }

@@ -1,5 +1,6 @@
 package com.capstone.ecommerce.Ecommerce.repository;
 
+import com.capstone.ecommerce.Ecommerce.Entity.Comments;
 import com.capstone.ecommerce.Ecommerce.Entity.Product;
 import org.springframework.data.jpa.repository.JpaRepository;
 

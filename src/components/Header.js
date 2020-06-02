@@ -10,10 +10,9 @@ export default class Header extends Component {
                 <div class="topnav">
                     <Router>
                         <Link to="/home">Home</Link>
-                      <a href="#home">Home</a>
-                      <a href="#mens">Mens</a>
-                      <a href="#womens">Womens</a>
-                      <a href="#about">About</a>   
+                        <Link to="/mens">Mens</Link>
+                        <Link to="/womens">Womens</Link>
+                        <Link to="/cart">Cart</Link>   
                     </Router>
                                   
                 </div>                

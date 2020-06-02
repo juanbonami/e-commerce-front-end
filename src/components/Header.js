@@ -1,6 +1,9 @@
 import React, { Component } from 'react'
 import { Route, Link, BrowserRouter as Router } from 'react-router-dom';
 import App from 'App';
+import Mens from './Mens';
+import Womens from './Womens';
+import Cart from './Cart';
 
 export default class Header extends Component {
     render() {

@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Route, Link, BrowserRouter as Router } from 'react-router-dom';
-import App from 'App';
+import App from './DefaultPage';
 import Mens from './Mens';
 import Womens from './Womens';
 import Cart from './Cart';

@@ -6,7 +6,8 @@ export default class Checkout extends Component {
         super(props)
 
         this.state = {
-            info: ''
+            name: '',
+            comment: ''
         }
     }
 

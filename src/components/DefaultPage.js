@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Header from './Header';
+import Checkout from './Checkout';
 import logo from '../images/model2.jpg';
 import logo2 from '../images/model1.jpg';
 import logo3 from '../images/model3.jpg';
@@ -26,6 +27,7 @@ export default class DefaultPage extends Component {
     <br /> Accessories </Col>
   </Row>
 </Container>
+<Checkout />
             </div>
         )
     }

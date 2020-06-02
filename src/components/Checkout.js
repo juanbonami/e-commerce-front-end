@@ -11,6 +11,12 @@ export default class Checkout extends Component {
         }
     }
 
+    changeHandler = (e) => {
+        this.setState({
+            [e.target.name]: e.target.value
+        })
+    }
+
 
     // componentDidMount() {
     //     axios.get('http://localhost:8080/addComment');

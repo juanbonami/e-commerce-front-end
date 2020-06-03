@@ -1,9 +1,4 @@
 import React, { Component } from 'react'
-import { Route, Link, BrowserRouter as Router } from 'react-router-dom';
-import App from './DefaultPage';
-import Mens from './Mens';
-import Womens from './Womens';
-import Cart from './Cart';
 
 export default class Header extends Component {
     render() {
@@ -12,7 +7,16 @@ export default class Header extends Component {
                 <div class="bg-img">
                 <div class="container">
                 <div class="topnav">
-                    <Router>
+                  <a href="#home">Home</a>
+                  <a href="#mens">Mens</a>
+                  <a href="#womens">Womens</a>
+                  <a href="#about">About</a>                 
+                </div>                
+                <h1 class="title">Bonami</h1>
+                </div>
+                </div>
+
+                {/* <Router>
                         <Link to="/home">Home</Link>
                         <Link to="/mens">Mens</Link>
                         <Link to="/womens">Womens</Link>
@@ -22,12 +26,7 @@ export default class Header extends Component {
                         <Route path="/mens" component={Mens} />
                         <Route path="/womens" component={Womens} />
                         <Route path="/cart" component={Cart} />
-                    </Router>
-                                  
-                </div>                
-                <h1 class="title">Bonami</h1>
-                </div>
-                </div>
+                    </Router> */}
             </div>
         )
     }

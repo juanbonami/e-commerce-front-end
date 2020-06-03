@@ -9,6 +9,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
+// second model
 @Data
 @AllArgsConstructor
 @NoArgsConstructor

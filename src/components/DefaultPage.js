@@ -43,10 +43,10 @@ export default class DefaultPage extends Component {
     <h1 className="text-style"> <u> Women's up to 50% off </u> </h1> </Col>
   </Row>
   <br />
-  <Row>
-    <Col> <img src={logo} height="966" width="699" alt=""></img> </Col>
-    <Col> <img src={logo2} height="966" width="699" alt=""></img> </Col>
-    <Col> <img src={logo3} height="966" width="699" alt=""></img> </Col>
+  <Row className="test">
+    <Col fluid> <img src={logo7} height="966" width="699" alt=""></img> </Col>
+    <Col fluid> <img src={logo8} height="966" width="699" alt=""></img> </Col>
+    <Col fluid> <img src={logo9} height="966" width="699" alt=""></img> </Col>
   </Row>
 </Container>
 <Footer />

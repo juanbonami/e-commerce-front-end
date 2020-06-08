@@ -66,12 +66,16 @@
   /* background-color: rgb(22, 41, 65); */
 }
 
+.pic-border {
+  border-radius: 50%;
+}
+
 .container {
   text-align: center;
 }
 
 .main-footer {
-  background-color: rgb(129, 5, 30);
+  background-color: rgb(110, 7, 28);
   color: #ddd;
   padding-top: 10%;
   padding-bottom: 5%;

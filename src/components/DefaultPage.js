@@ -27,13 +27,23 @@ export default class DefaultPage extends Component {
     <Col> <img src={logo3} height="966" width="699" alt=""></img> </Col>
   </Row>
   <br />
+  <h3>YOUR LOCAL STORE IS OPEN</h3>
+  <h1> <b> <u>SELECT STYLES UP TO 70% OFF </u> </b> </h1>
+  <p>online only</p>
+  <h1> <b> <u> SHOP NOW </u> </b> </h1>
   <Row>
     <Col className="body-text"> <img className="pic-border" src={logo4} height="400" width="420" alt=""></img>
-    <h1 className="text-style">Great summer styles starting at $15</h1> </Col>
+    <h1 className="text-style"> <u> Great summer styles starting at $15 </u> </h1> </Col>
     <Col className="body-text"> <img className="pic-border" src={logo5} height="400" width="420" alt=""></img>
-    <h1 className="text-style" >Men's up to 40% off</h1> </Col>
+    <h1 className="text-style"> <u> Men's up to 40% off </u> </h1> </Col>
     <Col className="body-text"> <img className="pic-border" src={logo6} height="400" width="420" alt=""></img>
-    <h1 className="text-style">Women's up to 50% off</h1> </Col>
+    <h1 className="text-style"> <u> Women's up to 50% off </u> </h1> </Col>
+  </Row>
+  <br />
+  <Row>
+    <Col> <img src={logo} height="966" width="699" alt=""></img> </Col>
+    <Col> <img src={logo2} height="966" width="699" alt=""></img> </Col>
+    <Col> <img src={logo3} height="966" width="699" alt=""></img> </Col>
   </Row>
 </Container>
 <Footer />

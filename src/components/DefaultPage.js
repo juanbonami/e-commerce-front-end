@@ -9,6 +9,9 @@ import logo3 from '../images/model3.jpg';
 import logo4 from '../images/red-on-red-fashion.jpg';
 import logo5 from '../images/classy-tuxedo-fashion.jpg';
 import logo6 from '../images/striped-blouse-fashion.jpg';
+import logo7 from '../images/model-in-warm-light-posing.jpg';
+import logo8 from '../images/rich-red-fashion.jpg';
+import logo9 from '../images/silk-striped-blouse-fashion.jpg';
 
 import { Navbar, Nav,
     Form, FormControl,

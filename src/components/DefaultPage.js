@@ -28,9 +28,12 @@ export default class DefaultPage extends Component {
   </Row>
   <br />
   <Row>
-    <Col className="body-text"> <img className="pic-border" src={logo4} height="400" width="430" alt=""></img> </Col>
-    <Col className="body-text"> <img className="pic-border" src={logo5} height="400" width="430" alt=""></img> </Col>
-    <Col className="body-text"> <img className="pic-border" src={logo6} height="400" width="430" alt=""></img> </Col>
+    <Col className="body-text"> <img className="pic-border" src={logo4} height="400" width="420" alt=""></img>
+    <h1>Great summer styles starting at $15</h1> </Col>
+    <Col className="body-text"> <img className="pic-border" src={logo5} height="400" width="420" alt=""></img>
+    <h1>Men's up to 40% off</h1> </Col>
+    <Col className="body-text"> <img className="pic-border" src={logo6} height="400" width="420" alt=""></img>
+    <h1>Women's up to 50% off</h1> </Col>
   </Row>
 </Container>
 <Footer />

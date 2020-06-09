@@ -1,7 +1,6 @@
 // https://burst.shopify.com/ the site i got the images from 
 
 import React, { Component } from 'react';
-import Header from './Header';
 import Footer from './Footer';
 import logo from '../images/model2.jpg';
 import logo2 from '../images/model1.jpg';
@@ -19,7 +18,6 @@ export default class DefaultPage extends Component {
     render() {
         return (
             <div>
-  {/* <Header /> */}
 
   <Container fluid>
   <Row>

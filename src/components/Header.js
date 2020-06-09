@@ -10,18 +10,6 @@ export default class Header extends Component {
     render() {
         return (
             <div>
-                {/* <div class="bg-img">
-                <div class="container">
-                <div class="topnav">
-                  <a href="#home">Home</a>
-                  <a href="#mens">Mens</a>
-                  <a href="#womens">Womens</a>
-                  <a href="#about">About</a>                 
-                </div>                
-                <h1 class="title">Bonami</h1>
-                </div>
-                </div> */}
-
                     <Router>
                         <div className="bg-img">
                            <div className="container">
@@ -40,6 +28,7 @@ export default class Header extends Component {
                         <Route path="/womens" component={Womens} />
                         <Route path="/cart" component={Cart} />
                     </Router>
+                {/* <DefaultPage /> */}
             </div>
         )
     }

@@ -1,7 +1,6 @@
 // https://burst.shopify.com/ the site i got the images from 
 
 import React, { Component } from 'react';
-import { Grid, Image } from 'semantic-ui-react'
 import Header from './Header';
 import Footer from './Footer';
 import logo from '../images/model2.jpg';
@@ -14,15 +13,13 @@ import logo7 from '../images/model-in-warm-light-posing.jpg';
 import logo8 from '../images/rich-red-fashion.jpg';
 import logo9 from '../images/silk-striped-blouse-fashion.jpg';
 
-import { Navbar, Nav,
-    Form, FormControl,
-    Button, Container, Row, Col } from 'react-bootstrap';
+import { Container, Row, Col } from 'react-bootstrap';
 
 export default class DefaultPage extends Component {
     render() {
         return (
             <div>
-  <Header />
+  {/* <Header /> */}
 
   <Container fluid>
   <Row>

@@ -22,7 +22,7 @@ export default class Header extends Component {
                 </div>
                 </div> */}
 
-                    <Router>
+                    {/* <Router>
                         <div className="bg-img">
                            <div className="container">
                             <div className="topnav">
@@ -35,13 +35,11 @@ export default class Header extends Component {
                         </div> 
                         </div>
                         
-                        
-
                         <Route path="/home" component={App} />
                         <Route path="/mens" component={Mens} />
                         <Route path="/womens" component={Womens} />
                         <Route path="/cart" component={Cart} />
-                    </Router>
+                    </Router> */}
             </div>
         )
     }

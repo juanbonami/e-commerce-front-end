@@ -32,11 +32,11 @@ export default class DefaultPage extends Component {
   <h1> <b> <u> SHOP NOW </u> </b> </h1>
   <Row>
     <Col className="body-text"> <img className="pic-border" src={logo4} height="400" width="420" alt=""></img>
-    <h1 className="text-style"> <u> Great summer styles starting at $15 </u> </h1> </Col>
+    <h3 className="text-style"> <u> GREAT SUMMER STYLES STARTING AT $15 </u> </h3> </Col>
     <Col className="body-text"> <img className="pic-border" src={logo5} height="400" width="420" alt=""></img>
-    <h1 className="text-style"> <u> Men's up to 40% off </u> </h1> </Col>
+    <h3 className="text-style"> <u> MEN'S UP TO 40% OFF </u> </h3> </Col>
     <Col className="body-text"> <img className="pic-border" src={logo6} height="400" width="420" alt=""></img>
-    <h1 className="text-style"> <u> Women's up to 50% off </u> </h1> </Col>
+    <h3 className="text-style"> <u> WOMEN'S UP TO 50% OFF </u> </h3> </Col>
   </Row>
   <br />
   <Row>

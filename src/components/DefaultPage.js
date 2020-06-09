@@ -1,6 +1,7 @@
 // https://burst.shopify.com/ the site i got the images from 
 
 import React, { Component } from 'react';
+import { Grid, Image } from 'semantic-ui-react'
 import Header from './Header';
 import Footer from './Footer';
 import logo from '../images/model2.jpg';
@@ -43,10 +44,10 @@ export default class DefaultPage extends Component {
     <h1 className="text-style"> <u> Women's up to 50% off </u> </h1> </Col>
   </Row>
   <br />
-  <Row className="test">
-    <Col fluid> <img src={logo7} height="966" width="699" alt=""></img> </Col>
-    <Col fluid> <img src={logo8} height="966" width="699" alt=""></img> </Col>
-    <Col fluid> <img src={logo9} height="966" width="699" alt=""></img> </Col>
+  <Row>
+    <Col> <img src={logo7} height="966" width="699" alt=""></img> </Col>
+    <Col> <img src={logo8} height="966" width="699" alt=""></img> </Col>
+    <Col> <img src={logo9} height="966" width="699" alt=""></img> </Col>
   </Row>
 </Container>
 <Footer />

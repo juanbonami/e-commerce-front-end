@@ -92,5 +92,10 @@
 }
 
 .test {
+  position: relative;
+}
+
+.position {
   border: solid;
+  position: relative;
 }
